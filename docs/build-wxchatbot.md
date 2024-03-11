@@ -55,14 +55,14 @@
 		- `PROXY_PORT`：代理HOST的端口
 - 测试网络：`npm run test`：结果如下
   
-<img width="50%" alt="测试网络结果" src="../pictures/wxchatbot/fail.jpeg"/>
+<img width="50%" alt="测试网络结果" src="https://cdn.jsdelivr.net/gh/labi-xiaoxin/img/fail.jpeg"/>
 
 	>如果出现异常，检查代理是否正常，无法解决可留言
 
 - 启动项目：
 	- `npm run dev`:扫码即可启动专属微信机器人啦
   
-<img width="50%" alt="扫码启动专属微信机器人" src="../pictures/wxchatbot/success.jpeg"/>
+<img width="50%" alt="扫码启动专属微信机器人" src="https://cdn.jsdelivr.net/gh/labi-xiaoxin/img/success.jpeg"/>
 
 > 有相关问题欢迎留言
 
@@ -86,4 +86,5 @@
 -----
 
 > 获取自建免费ChatGPT链接地址：公众号关注【迷茫的21世纪的新青年】回复 新地址
+> 
 > 搭配获取Token：公众号关注【迷茫的21世纪的新青年】回复 token
