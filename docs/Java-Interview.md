@@ -1,8 +1,8 @@
 # Java面试知识库
 
-# Java基础
+## Java基础
 
-## Java是个面向对象的语言，如何理解面向对象呢？
+### Java是个面向对象的语言，如何理解面向对象呢？
 
 - 面向对象的三大基本特征：`继承、封装、多态`
   - `继承`：子类继承父类，父类的属性和方法继承到子类。
@@ -15,7 +15,7 @@
   - `依赖倒置原则`：方法依赖于抽象接口，而不是具体的实现。降低系统的耦合。
   - `接口隔离原则`：将一个复杂臃肿的接口拆分为更小、更专注的接口。提高代码的灵活性和稳定性。
 
-## Java的继承
+### Java的继承
 
 - Java只允许多实现，不允许多继承
 - 多继承在C++中存在`菱形继承`的问题，Java为了避免该类问题，不允许多继承。
@@ -26,7 +26,7 @@
   - 接口被实现，抽象类被继承。
   - 接口只能使用`public`修饰符。
 
-## Java的基本类型与包装类型
+### Java的基本类型与包装类型
 
 - 基本类型：`byte、short、int、long、char、float、double、boolean`
 - 包装类型：`Byte、Short、Integer、Long、Character、Float、Double、Boolean`
@@ -36,7 +36,7 @@
   - `自动装箱`：自动将基本类型转换对应包装类型。通过包装类型的`valueOf()`方法
   - `自动拆箱`：自动将包装类型转换对应基本类型。通过包装类型的`xxxValue()`方法
 
-## Java用什么适合存储金额的类型
+### Java用什么适合存储金额的类型
 
 Java中，`float`和`double`都是浮点数，浮点数在计算机中都是近似值，因此使用这两个类型存储金额的话，容易产生`计算错误`的问题。
 因此，Java中提供了`BigDecimal`进行精确运算。
@@ -44,12 +44,12 @@ Java中，`float`和`double`都是浮点数，浮点数在计算机中都是近�
 - `BigDecimal`中的等值比较应使用`compareTo`，而不是`equals`方法。因为`equals`比较`value(值)和scale(标度)`，0.1与0.10的value是一样的，而scale的值是不一样的。
 - `BigDecimal`需要准确的运算，那么`BigDecimal(double)`和`BigDecimal(String)`对比，`BigDecimal(String)`的值是准确的，而`BigDecimal(double)`由于double是近似值，因此值是不准确的。
 
-## String、StringBuilder、StringBuffer
+### String、StringBuilder、StringBuffer
 
 - 可变性：String不可变、StringBuilder/StringBffer是可变的。
 - 线程安全：StringBuffer、String是线程安全，StringBuilder非线程安全。
 
-## Java的动态代理
+### Java的动态代理
 
 - 动态代理：在运行时动态地创建代理对象，并处理代理方法调用的机制。
 - 动态代理用途：各种框架中，在运行期生成代理类，如过滤器、拦截器等。
@@ -57,13 +57,12 @@ Java中，`float`和`double`都是浮点数，浮点数在计算机中都是近�
   - `JDK动态代理`：通过反射接收被代理的类。（要求必须要实现一个接口）
   - `Cglib动态代理`：第三方类库，通过继承的方式做动态代理。
 
-## 什么是AIO、BIO、NIO
+### 什么是AIO、BIO、NIO
 
 - `AIO`：`Asynchronous I/O`异步非阻塞I/O模型，操作后会回调通知调用方。
 - `BIO`:`Blocking I/O`同步阻塞I/O模型，一直阻塞，直到处理完成。
 - `NIO`:`Non-Blocking I/O`同步非阻塞I/O模型，不阻塞，进行其他操作，定时轮询检查。
 
+## Java集合
 
-# Java集合 
-
-## 
+###

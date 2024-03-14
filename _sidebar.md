@@ -1,3 +1,5 @@
 * [Home](/)
 * [搭建微信机器人](/docs/build-wxchatbot.md)
 * [Java面试知识库](/docs/Java-Interview.md)
+* [pyenv-win:Python版本管理工具安装](/docs/pyenv-win.md)
+* [AMD芯片使用Stable-Diffusion](/doc/AMD-Stable-Diffusion.md)
