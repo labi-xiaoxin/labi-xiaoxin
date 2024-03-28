@@ -1,0 +1,7 @@
+```txt
+good
+robot,(1 girl:1.4),(full body:1.4),Wearing a white combat suit,Mecha Wings,mecha,(Battle Posture:1.2),(from below:1.2),(A beam of light on the face:1.3),Long hair fluttering,Mighty,Vision,Screen,cable,glowing,Fire,foreshortening,pov,Depth of field,cinematiclighting,((masterpiece)),(realistic:1.2),(high detial, intricate details, hyper detailed:1.2),(8k uhd:0.2),((best quality,high quality,masterpiece)),(best quality:1.2),(soft and bright lighting:0.6),<lora:aki:0.6>,
+
+bad
+sketches,(worst quality:2),(low quality:2),(normal quality:2),lowres,normal quality,((monochrome)),((grayscale)),skin spots,acnes,skin blemishes,bad anatomy,DeepNegative,(fat:1.2),facing away,looking away,tilted head,{Multiple people},lowres,bad anatomy,bad hands,text,error,missing fingers,extra digit,fewer digits,cropped,worstquality,low quality,normal quality,jpegartifacts,signature,watermark,username,blurry,bad feet,cropped,poorly drawn hands,poorly drawn face,mutation,deformed,worst quality,low quality,normal quality,jpeg artifacts,signature,watermark,extra fingers,fewer digits,extra limbs,extra arms,extra legs,malformed limbs,fused fingers,too many fingers,long neck,cross-eyed,mutated hands,polar lowres,bad body,bad proportions,gross proportions,text,error,missing fingers,missing arms,missing legs,extra digit,extra arms,extra leg,extra foot,badhandv4,badhandsv5-neg,ValkGown,ValkGown,NewChineseStyleSuit,Moon,bad-picture-chill-75v,realisticvision-negative-embedding,
+```
