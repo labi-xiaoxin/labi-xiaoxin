@@ -71,3 +71,5 @@
 ### [第五章——飞跃](/docs/lean_startup_read_5.md)
 
 [第五章——飞跃](lean_startup_read_5.md ':include')
+
+[第六章——测试](lean_startup_read_6.md ':include')
