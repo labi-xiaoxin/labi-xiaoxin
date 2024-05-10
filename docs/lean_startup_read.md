@@ -73,3 +73,5 @@
 [第五章——飞跃](lean_startup_read_5.md ':include')
 
 [第六章——测试](lean_startup_read_6.md ':include')
+
+[第七章——衡量](lean_startup_read_7.md ':include')
