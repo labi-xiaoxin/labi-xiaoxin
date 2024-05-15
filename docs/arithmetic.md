@@ -85,3 +85,70 @@
     }
 
 ```
+
+## 题目二：无重复字符的最长子串
+
+给定一个字符串 s ，请你找出其中不含有重复字符的 最长子串的长度。
+
+```
+示例 1:
+
+输入: s = "abcabcbb"
+输出: 3 
+解释: 因为无重复字符的最长子串是 "abc"，所以其长度为 3。
+示例 2:
+
+输入: s = "bbbbb"
+输出: 1
+解释: 因为无重复字符的最长子串是 "b"，所以其长度为 1。
+示例 3:
+
+输入: s = "pwwkew"
+输出: 3
+解释: 因为无重复字符的最长子串是 "wke"，所以其长度为 3。
+     请注意，你的答案必须是 子串 的长度，"pwke" 是一个子序列，不是子串。
+```
+
+解题思路：暴力破解 或使用 滑动窗口
+
+```java
+    //这里我用暴力破解
+    private int lengthOfLongestSubstring(String s) {
+        if(s.isEmpty()){
+            return 0;
+        }
+        //原视数据
+        StringBuilder sb = new StringBuilder(s);
+        //记录重复字段长度
+        ArrayList<Integer> lengthRe = new ArrayList<>();
+        //逐个遍历 获取当前值起始到重复长度
+        for (int i = 0; i < sb.length(); i++) {
+            StringBuilder noRepStr = new StringBuilder();
+            noRepStr.append(sb.charAt(i));
+
+            if(i+1 == sb.length()){
+                lengthRe.add(noRepStr.length());
+            }else {
+                for (int j = i + 1; j < sb.length(); j++) {
+                    int hasRep = noRepStr.indexOf(String.valueOf(sb.charAt(j)));
+                    if (hasRep != -1) {
+                        //有重复 记录当前到未重复的长度
+                        int length = j - i;
+                        lengthRe.add(length);
+                        break;
+                    }
+
+                    noRepStr.append(sb.charAt(j));
+
+                    if (j == sb.length() - 1) {
+                        //到最后都没重复，做记录
+                        int length = j - i + 1;
+                        lengthRe.add(length);
+                    }
+                }
+            }
+        }
+
+        return Collections.max(lengthRe);
+    }
+```

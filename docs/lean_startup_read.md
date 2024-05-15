@@ -75,3 +75,5 @@
 [第六章——测试](lean_startup_read_6.md ':include')
 
 [第七章——衡量](lean_startup_read_7.md ':include')
+
+[第八章——转型还是坚持](lean_startup_read_8.md ':include')
